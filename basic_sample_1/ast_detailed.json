@@ -1,0 +1,47 @@
+{
+  "design": {
+    "name": "$root",
+    "kind": "Root",
+    "addr": 95708972940736,
+    "members": [
+      {
+        "name": "",
+        "kind": "CompilationUnit",
+        "addr": 95708973022144
+      },
+      {
+        "name": "m",
+        "kind": "Instance",
+        "addr": 95708973022968,
+        "body": {
+          "name": "m",
+          "kind": "InstanceBody",
+          "addr": 95708973022440,
+          "members": [
+            {
+              "name": "s",
+              "kind": "Variable",
+              "addr": 95708973022624,
+              "type": "struct{int i;logic l;}m.s$1",
+              "lifetime": "Static"
+            }
+          ],
+          "definition": "95708972907568 m"
+        },
+        "connections": [
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "name": "m",
+      "kind": "Definition",
+      "addr": 95708972907568,
+      "defaultNetType": "95708972898256 wire",
+      "definitionKind": "Module",
+      "defaultLifetime": "Static",
+      "unconnectedDrive": "None"
+    }
+  ]
+}
